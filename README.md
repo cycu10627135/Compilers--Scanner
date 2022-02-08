@@ -23,3 +23,9 @@
 請在切割後輸出其 Token 種類，例如+則輸出 PLUS。  
 若為數字，需附上其數值，並以一個空白做為區隔。例如 0 則需輸出 NUM 0，以此類推。  
 每個 token 輸出後請以\n 分隔。  
+
+| Sample Input  | Sample Output | 
+|-------|:-----:|
+| 1+2 | NUM 1<br /> PLUS<br /> NUM 2<br /> |
+| 1+2 | NUM 1<br /> PLUS<br /> NUM 2<br /> |
+
