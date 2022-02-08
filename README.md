@@ -27,5 +27,5 @@
 | Sample Input  | Sample Output | 
 |-------|:-----:|
 | 1+2 | NUM 1<br /> PLUS<br /> NUM 2<br /> |
-| 1+2 | NUM 1<br /> PLUS<br /> NUM 2<br /> |
-
+| ( 1+ <br />  - 2<br />  )<br /> | LPR<br /> NUM 1<br /> PLUS<br /> MINUS<br /> NUM 2<br /> RPR<br />  |
+|   (<br /> (1 + <br />  2 * 3<br />  / 4 )<br />  )<br /> | LPR<br /> LPR<br /> NUM 1<br /> PLUS<br /> NUM 2<br /> MUL<br /> NUM 3<br /> DIV<br /> NUM 4<br /> RPR<br /> RPR<br /> |
